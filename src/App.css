@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  width: 90%;
+  margin :10px auto;
+
+}
+
+
+div[class~="ant-card"].doneCard{
+  background-color: #ffd66b; 
+  width:300px;
+}
+
+div[class~="ant-card"].doingCard{
+  background-color: #9f5f80;
+  width:300px;
+
+}
+div[class~="ant-card"].startCard{
+  background-color: #ff9d72;
+  width: 300px;
+}
+
+div[class~="ant-card-body"].Pannel{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  align-items: center;
+  justify-content: space-around;
+}
